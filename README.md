@@ -34,7 +34,7 @@ Uygulama, tutarlı ve sezgisel bir kullanıcı deneyimi sağlamak için Material
 - [CoinCap API](https://api.coincap.io/v2/assets)
 - Link: https://api.coincap.io/v2/assets
 
-### **Eng**
+ **_ENG_**
 
 ## Erciyes University 
 ```
