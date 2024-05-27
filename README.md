@@ -10,7 +10,7 @@ Ders: Mobil Uygulama Geliştirme
 ```
 
 
-```
+
 # Coin App Project
 -Coin App, anlık kripto para birimi fiyatlarını takip etmek için kullanılan bir mobil uygulamadır.
 
@@ -32,4 +32,5 @@ Uygulama, tutarlı ve sezgisel bir kullanıcı deneyimi sağlamak için Material
 
 ## Kullanılan API
 [CoinCap API](https://api.coincap.io/v2/assets)
+```
 ```
