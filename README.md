@@ -1,5 +1,6 @@
 # FlutterAppProject
 
+### **_TR_**
 
 ## Erciyes Üniversitesi 
 ```
@@ -33,6 +34,7 @@ Uygulama, tutarlı ve sezgisel bir kullanıcı deneyimi sağlamak için Material
 ### Kullanılan API
 - [CoinCap API](https://api.coincap.io/v2/assets)
 - Link: https://api.coincap.io/v2/assets
+
 
 ### **_ENG_**
 
