@@ -15,7 +15,9 @@ Ders: Mobil Uygulama Geliştirme
 -Coin App, anlık kripto para birimi fiyatlarını takip etmek için kullanılan bir mobil uygulamadır.
 
 ## Açıklama
--Coin App, Flutter framework'ü kullanılarak geliştirilmiş olup iOS ve Android platformlarında çalışır. Uygulama, CoinCap API'sini kullanarak kripto para birimi fiyatlarını alır ve kullanıcıya sunar. Uygulama, tutarlı ve sezgisel bir kullanıcı deneyimi sağlamak için Material Design prensiplerini takip eder.
+-Coin App, Flutter framework'ü kullanılarak geliştirilmiş olup iOS ve Android platformlarında çalışır.
+Uygulama, CoinCap API'sini kullanarak kripto para birimi fiyatlarını alır ve kullanıcıya sunar.
+Uygulama, tutarlı ve sezgisel bir kullanıcı deneyimi sağlamak için Material Design prensiplerini takip eder.
 
 ## Özellikler
 - Anlık kripto para birimi fiyatlarını takip etme
