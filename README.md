@@ -32,6 +32,37 @@ Uygulama, tutarlı ve sezgisel bir kullanıcı deneyimi sağlamak için Material
 
 ### Kullanılan API
 - [CoinCap API](https://api.coincap.io/v2/assets)
-- Link:https://api.coincap.io/v2/assets
+- Link: https://api.coincap.io/v2/assets
+
+# English
+
+## Erciyes University 
 ```
+Department: Computer Engineering  
+Course: Mobile Application Development  
+Instructor: Dr. Lecturer Fehim KÖYLÜ  
+Student: 1030520946 Mehmet YALÇINKAYA
 ```
+
+## Coin App Project
+- Coin App is a mobile application used to track real-time cryptocurrency prices.
+
+### Description
+- Coin App is developed using the Flutter framework and runs on both iOS and Android platforms.
+The app fetches cryptocurrency prices using the CoinCap API and presents them to the user.
+The app follows Material Design principles to provide a consistent and intuitive user experience.
+
+### Features
+- Track real-time cryptocurrency prices
+- View detailed information about each cryptocurrency
+
+### Technologies Used
+- Flutter Framework
+- Dart Programming Language
+- HTTP Package
+- JSON Format
+- Material Design
+
+### API Used
+- [CoinCap API](https://api.coincap.io/v2/assets)
+- Link: https://api.coincap.io/v2/assets
