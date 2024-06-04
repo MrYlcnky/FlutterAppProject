@@ -27,7 +27,7 @@ Uygulama, tutarlı ve sezgisel bir kullanıcı deneyimi sağlamak için Material
 ### Kullanılan Teknolojiler
 - Flutter Framework
 - Dart Programlama Dili
-- HTTP Paketi
+- RESTful API (Dio Paketi)
 - JSON formatı
 - Material Design
 
@@ -61,7 +61,7 @@ The app follows Material Design principles to provide a consistent and intuitive
 ### Technologies Used
 - Flutter Framework
 - Dart Programming Language
-- HTTP Package
+- RESTful API (Dio Package)
 - JSON Format
 - Material Design
 
