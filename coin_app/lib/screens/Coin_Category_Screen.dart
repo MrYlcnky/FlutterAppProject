@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:http/http.dart' as http;
+import 'package:dio/dio.dart';
 import 'dart:convert';
 import 'Coin_Screen.dart'; // Coin Screen dosyasını import ediyoruz
 
@@ -14,10 +14,14 @@ class _CoinCategoryScreenState extends State<CoinCategoryScreen> {
   TextEditingController searchController = TextEditingController();
 
   // Kripto paraları almak için API'den veri çeken metot
-  Future<List<dynamic>> fetchCoins() async {
-    final response = await http.get(Uri.parse('https://api.coincap.io/v2/assets'));
-    final data = jsonDecode(response.body);
-    return data['data'];
+    Future<List<dynamic>> fetchCoins() async {
+    try {
+      Response response = await Dio().get('https://api.coincap.io/v2/assets');
+      return response.data['data'];
+    } catch (error, stacktrace) {
+      print("Exception occured: $error stackTrace: $stacktrace");
+      return []; // Hata durumunda boş liste döndür
+    }
   }
 
   @override

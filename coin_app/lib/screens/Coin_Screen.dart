@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:http/http.dart' as http;
+import 'package:dio/dio.dart';
 import 'dart:convert';
 
 class CoinScreen extends StatefulWidget {
@@ -22,11 +22,14 @@ class _CoinScreenState extends State<CoinScreen> {
 
   // Coin'un currency symbolünü getiren fonksiyon
   Future<void> fetchCurrencySymbol() async {
-    final response = await http.get(Uri.parse('https://api.coincap.io/v2/rates/${widget.coin['id']}'));
-    final data = jsonDecode(response.body);
-    setState(() {
-      currencySymbol = data['data']['currencySymbol'];
-    });
+    try {
+      Response response = await Dio().get('https://api.coincap.io/v2/rates/${widget.coin['id']}');
+      setState(() {
+        currencySymbol = response.data['data']['currencySymbol'];
+      });
+    } catch (error, stacktrace) {
+      print("Exception occured: $error stackTrace: $stacktrace");
+    }
   }
 
   @override
